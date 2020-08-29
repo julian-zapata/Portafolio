@@ -1,22 +1,25 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8">    
     <title>Julian Gabriel Zapata</title>
+    <link rel="icon" href="talleres.jpg" type="image/jpg">
 </head>
 <body>
     <header>
+        <div>
+            <img src="talleres.jpg" alt="url de referencia">
+        </div>
         <nav>
             <ol>
                 <li>
-                    <a href="">Portafolio</a>
+                    <a href="#portafolio">Portafolio</a>
                 </li>
                 <li>
-                    <a href="">Experiencia</a>
+                    <a href="#experiencia">Experiencia</a>
                 </li>
                 <li>
-                    <a href="">Trabajemos juntos</a>
+                    <a href="#contacto">Trabajemos juntos</a>
                 </li>                
             </ol>
         </nav>
@@ -27,10 +30,10 @@
         Estudiante de <strong>Arquitectura</strong> y <br>
         Desarrollador <strong>Java</strong>
         </h1>
-        <img/>Imagen de portada
+        <img src="SANY0561.JPG" width="300" alt="Imagen principal"/>
     </section>
 
-    <section>
+    <section id="portafolio"> <!-- Seccion Portafolio-->
         <h2>Portafolio (proyectos destacados)</h2>
         <article>
             <h3>Platzi Video</h3>
@@ -41,15 +44,16 @@
                 la mejor app para enseñar el funcionamieto de React y React Native. 
                 Desde crear un vista detalle hasta patrones avanzados de navegación, 
                 este proyecto ha sido el ejemplo de futuros creadores  de aplicaciones multiplataforma.
-            </p>            
+            </p>   
+            <img src="rey julien.jpg" alt="imagen de mierda porque sabia que poner">         
         </article>
     </section>
 
-    <section>
+    <section id="experiencia"> <!--Seccion Experiencia-->
         <h2>Mas sobre mi Experiencia</h2>
         <article>
             <figure>
-                <img/>
+                <img src="3d1.jpg" width="200" alt="3d estructura" />
             </figure>
             <h3>PlaztiConf Mexico 2018</h3>
             <p>El evento mas grande sobre la gente que quiere aprender mas de internet.</p>
@@ -57,7 +61,15 @@
         </article>
     </section>
     
-    <section>seccion contacto</section>
+    <section id="contacto"> <!--seccion contacto -->
+        <form action="/suscripcion/">
+            <h2>¿Creamos algo juntos?</h2>
+            <label for="email">Déjame tu email</label>
+            <input type="text" placeholder="Déjame tu email" id="email">
+            <button>Enviar</button>
+
+        </form>
+    </section>
 
     <footer>footer</footer>
     
