@@ -1,4 +1,16 @@
-header{
-   color: rgb(26, 7, 37);
-   background: aqua; 
+body{
+   font-family: 'Sourse Sans Pro', sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+   font-family: 'Fjalla One', sans-serif;
+   font-weight: normal;
+}
+
+h1{
+   font-size: 40px;
+   line-height: 1.5;
+   text-transform: uppercase;
+   letter-spacing: -0.2px;
+   text-decoration: dashed;
 }
