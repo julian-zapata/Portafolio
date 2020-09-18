@@ -48,29 +48,32 @@ header nav ol{
 .hero{
    height: 300px;
    background-image: url('../SANY0561.JPG');
-   background-size: 700px;
+   background-size: 600px;
    background-color:rgb(16, 12, 46);
    background-repeat: no-repeat;
-   background-position-x: right;
+   background-position-x: 573px;
+   display: flex;
 }
 
 .hero h1{
-   width: 750px;
-   height: 300px;
+   width: 700px;
+   height: 200px;
    font-size: 40px;
    line-height: 1.5;
    text-transform: uppercase;
    letter-spacing: -0.2px;
    text-decoration: dashed;
-   margin-top: 10px;
+   /* margin-top: 10px; */
    color: beige;
    margin: 0px;
-   padding: 40px;
+   padding: 20px;
+   padding-top: 50px;
 }
 
 .hero h1 strong{
    color: rgb(100, 137, 240);
 }
+
 
 h2{
    text-transform: uppercase;
@@ -106,6 +109,10 @@ h3{
    margin: 20px;
 }
 
+.experience-event{
+   display: flex;
+   justify-content: space-between   ;
+}
 
 .event{
    border: 1px solid gray;
@@ -182,3 +189,11 @@ h3{
 debo crear una clase contenedor en todas las secciones 
 dandole formato y heredando las propiedades de dicha 
 seccion */
+
+.container{
+   width: 1027px;
+   height: inherit;
+   margin: 0 150px;
+   display: inherit;
+   justify-content: inherit;
+}

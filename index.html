@@ -9,77 +9,102 @@
 </head>
 <body>
     <header class="header">
-                <img src="talleres.jpg" height="50" alt="url de referencia">
-        <nav class="menu">
-            <ol>
-                <li>
-                    <a href="#portafolio">Portafolio</a>
-                </li>
-                <li>
-                    <a href="#experiencia">Experiencia</a>
-                </li>
-                <li>
-                    <a href="#contacto">Trabajemos juntos</a>
-                </li>                
-            </ol>
-        </nav>
+        <div class="container">
+            <img src="talleres.jpg" height="50" alt="url de referencia">
+            <nav class="menu">
+                <ol>
+                    <li>
+                        <a href="#portafolio">Portafolio</a>
+                    </li>
+                    <li>
+                        <a href="#experiencia">Experiencia</a>
+                    </li>
+                    <li>
+                        <a href="#contacto">Trabajemos juntos</a>
+                    </li>                
+                </ol>
+            </nav>
+        </div>
     </header>
 
     <section class="hero">
-        <h1>Hola! Soy <strong>julian Gabriel Zapata</strong> <br>
-        Estudiante de <strong>Arquitectura</strong> y <br>
-        Desarrollador <strong>Java</strong>
-        </h1>
-        <!-- img src="SANY0561.JPG" width="600" alt="Imagen principal"/ -->
+        <div class="container">
+            <h1>Hola! Soy <strong>julian Gabriel Zapata</strong> <br>
+            Estudiante de <strong>Arquitectura</strong> y <br>
+            Desarrollador <strong>Java</strong>
+            </h1>
+            <!-- <img class="hero-image" src="SANY0561.JPG" height="300" width="600" alt="Imagen principal"/> -->
+        </div>
     </section>
 
     <section id="portafolio" class="portfolio"> <!-- Seccion Portafolio-->
-        <h2>Portafolio (proyectos destacados)</h2>
-        <article class="project">
-            <div class="project-details">
-                <h3 class="project-title">Platzi Video</h3>
-                <h6 class="project-course">React Native / React</h6>
-                <p class="project-date"><small><strong>Fecha:</strong> 01/07/2018</small></p>
-                <p class="project-url"><small><strong>Puedes verlo en: </strong>www.platzi.com/native</small></p>
-                <p class="project-description">Platzi Video fue el resultado de tres meses de trabajo para crear
-                    la mejor app para enseñar el funcionamieto de React y React Native. 
-                    Desde crear un vista detalle hasta patrones avanzados de navegación, 
-                    este proyecto ha sido el ejemplo de futuros creadores  de aplicaciones multiplataforma.
-                </p>   
-            </div>
-            <figure class="project-imageContainer">
-                <img class="project-image" src="rey julien.jpg" width="300" alt="imagen de mierda porque sabia que poner">
-            </figure>         
-        </article>
+        <div class="container">
+            <h2>Portafolio (proyectos destacados)</h2>
+            <article class="project">
+                <div class="project-details">
+                    <h3 class="project-title">Platzi Video</h3>
+                    <h6 class="project-course">React Native / React</h6>
+                    <p class="project-date"><small><strong>Fecha:</strong> 01/07/2018</small></p>
+                    <p class="project-url"><small><strong>Puedes verlo en: </strong>www.platzi.com/native</small></p>
+                    <p class="project-description">Platzi Video fue el resultado de tres meses de trabajo para crear
+                        la mejor app para enseñar el funcionamieto de React y React Native. 
+                        Desde crear un vista detalle hasta patrones avanzados de navegación, 
+                        este proyecto ha sido el ejemplo de futuros creadores  de aplicaciones multiplataforma.
+                    </p>   
+                </div>
+                <figure class="project-imageContainer">
+                    <img class="project-image" src="rey julien.jpg" width="300" alt="imagen de mierda porque sabia que poner">
+                </figure>         
+            </article>
+        </div>
     </section>
 
     <section id="experiencia" class="experience"> <!--Seccion Experiencia-->
-        <h2>Mas sobre mi Experiencia</h2>
-        <article class="event">
-            <img class="event-image" src="3d1.jpg" width="480" alt="3d estructura" />
-            <div class="event-detail">
-                <h3 class="event-title">PlaztiConf Mexico 2018</h3>
-                <p class="event-description">
-                    El evento mas grande sobre la gente que quiere aprender mas de internet.
-                    En este evento te comparto como tener una vida de constante aprendizaje.
-                </p>
-                <a class="event-url" href="https://www.youtube.com/watch?v=0lKT6APbBHk" target="_blank">Ver Plática</a>
-            </div>
-        </article>
+        <div class="container">
+            <h2>Mas sobre mi Experiencia</h2>
+                <div class="experience-event">
+                    <article class="event">
+                        <img class="event-image" src="3d1.jpg" width="480" alt="3d estructura" />
+                        <div class="event-detail">
+                            <h3 class="event-title">PlaztiConf Mexico 2018</h3>
+                            <p class="event-description">
+                                El evento mas grande sobre la gente que quiere aprender mas de internet.
+                                En este evento te comparto como tener una vida de constante aprendizaje.
+                            </p>
+                            <a class="event-url" href="https://www.youtube.com/watch?v=0lKT6APbBHk" target="_blank">Ver Plática</a>
+                        </div>
+                    </article>
+                    <article class="event">
+                        <img class="event-image" src="3d1.jpg" width="480" alt="3d estructura" />
+                        <div class="event-detail">
+                            <h3 class="event-title">PlaztiConf Mexico 2018</h3>
+                            <p class="event-description">
+                                El evento mas grande sobre la gente que quiere aprender mas de internet.
+                                En este evento te comparto como tener una vida de constante aprendizaje.
+                            </p>
+                            <a class="event-url" href="https://www.youtube.com/watch?v=0lKT6APbBHk" target="_blank">Ver Plática</a>
+                        </div>
+                    </article>
+                </div>
+        </div>
     </section>
     
     <section id="contacto" class="contact"> <!--seccion contacto -->
-        <h2 class="contact-title">¿Creamos algo juntos?</h2>
-            <form action="/suscripcion/" class="form-email">
-                <!-- <label for="email">Déjame tu email</label> -->
-                <input type="text" placeholder="Déjame tu email" id="email">
-                <button>Enviar</button>
-            </form>
+        <div class="container">
+            <h2 class="contact-title">¿Creamos algo juntos?</h2>
+                <form action="/suscripcion/" class="form-email">
+                    <!-- <label for="email">Déjame tu email</label> -->
+                    <input type="text" placeholder="Déjame tu email" id="email">
+                    <button>Enviar</button>
+                </form>
+        </div>
     </section>
 
     <footer class="footer">
-        <p>Curso de Desarrollo Web 2020</p>
-        <p>Es el primer intento</p>
+        <div class="container">
+            <p>Curso de Desarrollo Web 2020</p>
+            <p>Es el primer intento</p>
+        </div>
     </footer>
     
 </body>
