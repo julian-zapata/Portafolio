@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">    
+    <title>Julian Gabriel Zapata</title>
+    <link rel="icon" href="images/Logo JG.png" type="image/jpg">
+    <link href="https://fonts.googleapis.com/css2?family=Fjalla+One&family=Source+Sans+Pro:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/estilos.css">
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <img src="images/Logo JG.png" height="50" alt="Logo JG">
+            <nav class="menu">
+                <ol>
+                    <li>
+                        <a href="#portafolio">Portafolio</a>
+                    </li>
+                    <li>
+                        <a href="#experiencia">Experiencia</a>
+                    </li>
+                    <li>
+                        <a href="#curriculum">Curriculum</a>
+                        <!-- Falta crear Seccion -->
+                    </li>
+                    <li>
+                        <a href="#contacto">Contacto</a>
+                    </li>                
+                </ol>
+            </nav>
+        </div>
+    </header>
+
+    <section class="hero">
+        <div class="container">
+            <h1>Hola! Soy <strong>Julian Gabriel Zapata</strong> <br>
+            Estudiante de <strong>Ingeniería en Sistemas</strong><br> 
+            y Desarrollador <strong>Full Stack</strong>
+            </h1>
+            <!-- <img class="hero-image" src="SANY0561.JPG" height="300" width="600" alt="Imagen principal"/> -->
+        </div>
+    </section>
+
+    <section id="portafolio" class="portfolio"> <!-- Seccion Portafolio-->
+        <div class="container">
+            <h2>Portafolio (mis proyectos)</h2>
+            <article class="project">
+                <div class="project-details">
+                    <h3 class="project-title">Rizoma Constructora</h3>
+                    <h6 class="project-course">Web page comercial para empresa constructora</h6>
+                    <p class="project-date"><small><strong>Fecha:</strong> 2020 </small></p>
+                    <p class="project-url"><small><strong>Puede verlo en: <br>
+                    <a href="https://julian-zapata.github.io/rizomaconstructora/index.html" target="_blank">
+                    Mi Github - Rizoma Constructora
+                    </a></strong></small>
+                    </p>
+                    <p class="project-description">Página estática realizada mediante el uso del framework BootStrap. En este caso se busca promocionar los productos y servicios que ofrece la empresa. Se pretende en un futuro incorporar funcionalidades.
+                    </p>   
+                </div>
+                <figure class="project-imageContainer">
+                    <a href="https://julian-zapata.github.io/rizomaconstructora/index.html" target="_blank">
+                        <img src="images/rizoma.jpg" alt="Logo Rizoma" height="250">
+                    </a>
+                </figure>         
+            </article>
+        </div>
+    </section>
+
+    <section id="experiencia" class="experience"> <!--Seccion Experiencia-->
+        <div class="container">
+            <h2>sobre mi</h2>
+                <div class="experience-event">
+                    <article class="event">
+                        <img class="event-image" src="3d1.jpg" width="480" alt="3d estructura" />
+                        <div class="event-detail">
+                            <h3 class="event-title">Facultad de Arquitectura</h3>
+                            <p class="event-description">
+                                He cursado hasta el quinto año de la facultad de arquitectura.
+                                He obtenido habilidades como trabajar en equipo. 
+                                Considero que el tiempo es un factor importante además de tomar iniciativa. 
+                            </p>
+                        </div>
+                    </article>
+                    <article class="event">
+                        <img class="event-image" src="3d1.jpg" width="480" alt="3d estructura" />
+                        <div class="event-detail">
+                            <h3 class="event-title">Sobre conocimientos</h3>
+                            <p class="event-description">
+                                He incorporado conceptos de diseño y saber complementarlos con conocimientos técnicos.
+                                De ahora en más quiero aplicarlo al desarrollo de software ya que tengo preferencias por la lógica y las ciencias exactas.
+                            </p>
+                            <a class="event-url" href="https://www.linkedin.com/in/juliangabrielzapata/" target="_blank">Linked In</a>
+                        </div>
+                    </article>
+                </div>
+        </div>
+    </section>
+    
+    <section id="contacto" class="contact"> <!--seccion contacto -->
+        <div class="container">
+            <h2 class="contact-title">¿Creamos algo juntos?</h2>
+                <form action="/suscripcion/" class="form-email">
+                    <!-- <label for="email">Déjame tu email</label> -->
+                    <input type="text" placeholder="Déjame tu email" id="email">
+                    <button>Enviar</button>
+                </form>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <p>Curso de Desarrollo Web 2020</p>
+            <p>Es el primer intento</p>
+        </div>
+    </footer>
+    
+</body>
+</html>

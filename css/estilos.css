@@ -1,0 +1,207 @@
+body{
+   font-family: 'Sourse Sans Pro', sans-serif;
+   font-weight: 550;
+   background: rgb(238, 237, 237);
+}
+
+h1, h2, h3, h4, h5, h6 {
+   font-family: 'Fjalla One', sans-serif;
+   font-weight: normal;
+}
+
+header{
+   background-color: rgb(17, 8, 8);
+   color: beige;
+   font-family: 'Fjalla One', sans-serif;
+   display: flex;
+   justify-content:space-between ;
+}
+
+header div{
+   padding-left: 0px;
+   margin-left: 20px;
+   display: flex;
+   align-items: center;
+}
+
+header a{
+   color: beige;
+   text-decoration: none;
+   display: flex;
+   align-items: center;
+   padding: 0 10px;
+   height: inherit;
+}
+
+.menu{
+   height: inherit;
+   height: 90px;
+   display: flex;
+   align-items: center;
+}
+
+header nav ol{
+   margin: 0px;
+   padding: 0px;
+   list-style: none;
+   display: flex;
+}
+
+
+.hero{
+   height: 300px;
+   background-image: url('../SANY0561.JPG');
+   background-size: 600px;
+   background-color:rgb(16, 12, 46);
+   background-repeat: no-repeat;
+   background-position-x: 573px;
+   display: flex;
+}
+
+.hero h1{
+   width: 700px;
+   height: 200px;
+   font-size: 40px;
+   line-height: 1.5;
+   text-transform: uppercase;
+   letter-spacing: -0.2px;
+   text-decoration: dashed;
+   /* margin-top: 10px; */
+   color: beige;
+   margin: 0px;
+   padding: 20px;
+   padding-top: 50px;
+}
+
+.hero h1 strong{
+   color: rgb(100, 137, 240);
+}
+
+
+h2{
+   text-transform: uppercase;
+   font-size: larger;
+   font-weight: bold;
+   letter-spacing: .2px;
+   margin: 30px;
+   color: rgb(8, 121, 250);
+}
+
+h3{
+   margin: 0px;
+   font-size: 30px;
+}
+
+.project{
+   border: 1px solid gray;
+   border-radius: 20px;
+   margin: 10px 11px 12px 13px;
+   background: white;
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+}
+
+.project-details{
+   width: 500px;
+   margin: 20px;
+}
+
+.project-imageContainer{
+   width: 500px;
+   margin: 20px;
+}
+
+.experience-event{
+   display: flex;
+   justify-content: space-between   ;
+}
+
+.event{
+   border: 1px solid gray;
+   border-radius: 20px;
+   margin: 10px;
+   width: 480px;
+   flex-shrink: 0; /* ver definicion */
+   overflow: hidden; /* ver definicion */
+   background: rgb(226, 237, 247);
+}
+
+.event-image{
+   object-fit: cover; /* ver definicion */
+}
+
+.event-detail{
+   margin: 20px 40px;
+   margin-top: -40px;
+   background: white;
+   padding: 20px;
+   position: relative;
+   text-align: center;
+}
+
+.event-url{
+   color:rgb(8, 121, 250);
+   border: 1px solid;
+   padding: 10px 40px;
+   text-decoration: none;
+}
+
+.contact-title{
+   color: white;
+   background-color: rgb(8, 121, 250);
+   padding-top: 10px;
+   margin-bottom: 10px;
+}
+
+.form-email{
+   display: flex;
+   flex-direction: column;
+   margin-left: 30px;
+}
+
+.contact input{
+   width: 300px;
+   height: 25px;
+   border-radius: 5px;
+}
+
+.contact button{
+   width: 100px;
+   height: 25px;
+   border-radius: 5px;
+   margin-top: 10px;
+   margin-bottom: 30px;
+
+}
+
+.contact{
+   background-color: rgb(8, 121, 250);
+   color: white;
+}
+
+.footer{
+   background: rgb(17, 8, 8);
+   color: beige;
+   display: flex;
+   justify-content: space-between;
+   padding: 0 20px;
+}
+
+/* para centrar el contenido de la pagina web
+debo crear una clase contenedor en todas las secciones 
+dandole formato y heredando las propiedades de dicha 
+seccion */
+
+.container{
+   width: 1027px;
+   height: inherit;
+   margin: 0 150px;
+   display: inherit;
+   justify-content: inherit;
+}
+
+.project-imageContainer{
+   display: flex;
+   justify-content: center;
+}
